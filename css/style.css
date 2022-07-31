@@ -1,0 +1,58 @@
+:root {
+    --color1: #ae2923;
+    --color2: #721931;
+    --color3: #eee;
+}
+/*#ff7088*/
+input[type=text] {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=submit] {
+    padding:10px;
+    border:0;
+    padding:10px;
+    margin:10px 0; // add top and bottom margin;
+    background-color: var(--color1);
+    color: var(--color3);
+    cursor: pointer;
+    width: 30%;
+
+}
+
+input[type=text]:focus, input[type=submit]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+main {
+    margin: 50px 0 22px 0;;
+}
+
+body {
+    position: relative;
+    text-align: center;
+}
+
+
+
+/*Цвет*/
+.color1 {
+    color: var(--color1)
+}
+.color2 {
+    color: var(--color2)
+}
+.color3 {
+    color: var(--color3)
+}
+
+h2 {
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
